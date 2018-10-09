@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Cutive Mono';
+    src: url('CutiveMono-Regular.woff2') format('woff2'),
+        url('CutiveMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1 {
+  font-family: 'Cutive Mono';
+  font-weight: 900;
+  font-size: 17px;
+}
+
+p {
+  font-family: 'Cutive Mono';
+  font-size:13px;
+    font-weight: 400;
+}
+.testo {
+  color: #222222;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  line-height: 10px;
+  animation: fadeIn 2s;
+
+}
+
+#close {
+    display: block;
+    position: fixed;
+    top: 1%;
+    left: 91.6%;
+    z-index: 100;
+    transform: scale(0.2);
+}
+
+
+@keyframes fadeIn {
+  from{opacity: 0}
+
+  to{opacity: 1}
+}
+
+
+.freccia {
+  position: absolute;
+  display: block;
+  transform: translate(-50%,-50%);
+
+  font-family: 'Cutive Mono';
+  font-size:40px;
+    font-weight: 400;
+
+}
+
+a{color:#222222;
+  text-decoration: none
+}
+
+
+
+#avanti
+{
+  bottom:0%;
+  left:95%;
+}
+
+#indietro
+{
+  bottom:0%;
+  left:5%;
+}

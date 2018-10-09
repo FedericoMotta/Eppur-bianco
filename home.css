@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Cutive Mono';
+    src: url('CutiveMono-Regular.woff2') format('woff2'),
+        url('CutiveMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    animation: In 2s;
+}
+
+.testo{
+  font-family: 'Cutive Mono';
+  color:#222222
+
+}
+
+.menu
+{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:-webkit-center;
+}
+
+#spacing
+{
+    letter-spacing: 50;
+}
+
+#spacing1
+{
+    letter-spacing: 20;
+}
+h1 {
+
+  position:absolute;
+  top:40%;
+  left:51.7%;
+  transform: translate(-50%,-50%);
+  font-weight: 900;
+  font-size: 20px;
+  cursor:default;
+  text-align: -webkit-center
+}
+
+
+a{
+  text-decoration: none;
+    color:#222222
+
+}
+
+p:hover
+{  animation: blurred 0.3s linear forwards
+
+}
+
+.deblurred
+{
+  animation: deblurred 0.3s
+}
+
+#bianco:hover {
+  animation: fadeOut 1s linear forwards
+}
+
+.inside {
+  animation: fadeIn 1s linear forwards
+}
+
+@keyframes fadeOut {
+  from {color:#222222}
+  to{color:white}
+
+}
+
+@keyframes fadeIn {
+  from {color:white}
+  to{color:#222222}
+
+}
+@keyframes deblurred {
+  from {filter: blur(2px);}
+  to{filter: blur(0px)}
+
+}
+@keyframes blurred {
+  from {filter: blur(0px);}
+  to{filter: blur(2px)}
+
+}
+
+@keyframes In {
+  from{opacity: 0}
+
+  to{opacity: 1}
+}
