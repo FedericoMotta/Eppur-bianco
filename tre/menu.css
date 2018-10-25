@@ -30,8 +30,6 @@ h1
 
 }
 #close {
-    display: block;
-    position: fixed;
     top: 1%;
     left: 91.6%;
     z-index: 100;
