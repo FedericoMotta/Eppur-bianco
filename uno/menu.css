@@ -6,6 +6,13 @@
     font-style: normal;
 }
 
+@media and screen (max-width:480px){
+  h1{
+
+  font-size:18px
+}
+}
+
 body{
     animation: In 2s;
 }
